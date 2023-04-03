@@ -27,6 +27,7 @@ function handleTryClick(event){
     xAttempts++
 
     inputNumber.value = ""
+    document.getElementById("inputNumber").style.borderColor = "red";
     console.log(xAttempts)
 }
 
